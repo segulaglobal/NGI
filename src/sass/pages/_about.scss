@@ -1,0 +1,141 @@
+// Table of content
+
+
+
+.section-about-hero {
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 15rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--clr-gray-light);
+    // justify-content: ;
+    text-align: center;
+
+    .hero-2-container {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 9rem;
+        line-height: 1.2;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+
+// ============================= Who we are ==================================
+.section-about_who {
+    padding: 10rem 0;
+}
+
+
+// ============================= Mission & Vision ==================================
+.section-mission {
+    padding: 10rem 0;
+
+    .mission {
+        padding: 5rem;
+        background-color: var(--clr-blue);
+        color: var(--clr-white);
+        border-radius: 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    }
+}
+// End of Mission & Vision
+
+
+
+// ============================= Why NGI ==================================
+.section-about_why {
+    padding: 10rem 0;
+
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
+
+
+// ============================= About Banner ==================================
+.section-about_banner {
+    padding: 10rem 0;
+    background-image: url(/assets/about-banner.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    .banner {
+        text-align: center;
+        padding: 1rem;
+
+        h1 {
+            font-size: 5rem;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+        p {
+            // font-size: 1.4rem;
+        }
+    }
+}
+
+
+
+// ============================= About TEam ==================================
+.section-about_team {
+    padding: 10rem 0;
+    text-align: center;
+
+    .member {
+        border: 1px solid #787878;
+        padding: 2rem 0;
+        border-radius: 2px;
+        transition: .3s ease-in-out;;
+
+        img {
+            padding: 0 3rem;
+        }
+
+        // name
+        .name {
+            color: var(--clr-blue);
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        .title {
+            font-size: 1.3rem;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+        }
+    }
+}
+
+
+
+
+
+
+
+// ==========================================================
+//                       Media queries
+// ==========================================================
+@media screen and (max-width: 768px) {
+    .section-about-hero {
+
+        h1 {
+            font-size: 6rem;
+            line-height: 1.5;
+        }
+    }
+}

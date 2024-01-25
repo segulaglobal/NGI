@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" {{ meta }} " />
+    <meta name="robots" content="index, follow" />
+
+    {# social media sharing #}
+    <meta property='og:{{ title }}' content='Title of the article'/>
+    <meta property='og:{{ image }}' content='//media.example.com/ 1234567.jpg'/>
+    <meta property='og:{{ description }}' content='Description that will show in the preview'/>
+    <meta property='og:{{ post.url }}' content='//www.example.com/URL of the article'/>
+    <title>{{ title }}</title>
+
+    <!-- main css file -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    {# Google Fonts #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    {# End of Google Fonts #}
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+
+     <!-- font-awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     {# Slick Js Carousel #}
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    {# Netlify CMS Authentication #}
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
+
+
+
+
+</head>
+<body>
+    {% include 'navigation.njk' %}
+
+    {{ content | safe }}
+
+    {% include 'contact-form.njk' %}
+
+    {% include 'footer.njk' %}
+
+    <!-- main js file -->
+    <script src="/js/main.js"></script>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js">   </script>
+
+    {# Slick js #}
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/js/slick.js"></script>
+
+    {# REdirect when you login to the ADMIN Page #}
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+                });
+            }
+            });
+        }
+    </script>
+    
+</body>
+</html>

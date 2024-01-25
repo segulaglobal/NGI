@@ -1,0 +1,49 @@
+--- 
+
+layout: 'blog-base.njk'
+
+--- 
+
+<div id="hero"></div>
+
+  <div class="individual-article__page">
+      <div class="flow">
+        {# title #}
+        <h1 class="blog-heading mb-20"> {{ title }} </h1>
+
+        {# subtitle #}
+        <p class="blog-subheading"> {{ description }} </p>
+
+        {# author #}
+        <div class="author">
+          <div class="author__image">
+            {# <img src="/assets/thumbnail.png" alt="Sheila's Blog"> #}
+            <div>
+              <p class="dark-text">written by <span>{{ author }}</span></p>
+              <p class="">{{ date | postDate }}</p>
+            </div>
+          </div>
+          <ul class="blog-share__list">
+            <li>
+              {# <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a> #}
+            </li>
+          </ul>
+        </div>
+
+        {# <hr> #}
+        
+        {# image #}
+        <img src="{{ image }}" alt="{{ imageAlt }}" class="main-article__figure">
+        {# <h2 class="text-center description"> {{ description }} </h2> #}
+        
+        {{ content | safe }}
+
+
+          <!-- Back -->
+          <a href="../" class="btn btn-neutral mt-50">&LeftArrow; Back</a>
+      </div>
+    </div>
+<!-- </div> -->
+

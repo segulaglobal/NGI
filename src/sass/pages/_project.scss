@@ -1,0 +1,64 @@
+// Table of content
+// 1. hero section
+
+
+// ====================== Project hero =========================
+.section-project-hero {
+    width: 100%;
+    min-height: 80vh;
+    padding-top: 15rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--clr-gray-light);
+    // justify-content: ;
+    text-align: center;
+
+    .hero-2-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}
+// End of Project hero
+
+
+
+
+// ====================== Projects =========================
+.section-project {
+    padding: 10rem 0 0;
+
+    .project {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        margin-bottom: 15rem;
+
+        p {
+            margin: 2rem 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .project {
+
+        h1 {
+            line-height: 1.2;
+        }
+    }
+}

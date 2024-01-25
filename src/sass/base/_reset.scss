@@ -1,0 +1,102 @@
+// ============================================================
+//                      Table of Content
+// ============================================================
+// 1. Font-face
+// 2. Reset and box-sizing
+
+
+
+// 1. =============== Font-face ============
+// Medium
+@font-face {
+    font-family: "satoshi";
+    src: url(/assets/fonts/Satoshi-Medium.woff);
+    font-weight: medium;
+    font-style: normal;
+}
+// normal
+@font-face {
+    font-family: "satoshi";
+    src: url(/assets/fonts/Satoshi-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+// Reset and box-sizing
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --clr-blue: #4c45ad;
+    --clr-yellow: #f4cd1e;
+    --clr-green: #05caac;
+    --clr-red: #fc486b;
+    --clr-white: #ffffff;
+    --clr-white: #ffffff;
+    --clr-black: #1C1D20;
+    --clr-gray-light: #dadce4;
+    --clr-gray: #999D9E;
+    --clr-gray-dark: #111111;
+
+    --text-clr: #1C1D20;
+}
+
+::selection {
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    line-height: 2.0;
+    transition: all .4s ease-in-out;
+    background: var(--clr-white);
+    color: var(--text-clr);
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+}
+p, i, span, article {
+    font-family: inherit;
+    font-size: inherit;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: inherit;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    line-height: 1;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 1.6rem;
+    }
+}

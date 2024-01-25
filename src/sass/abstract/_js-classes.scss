@@ -1,0 +1,22 @@
+
+
+
+.no-scroll {
+    overflow-y: hidden;
+}
+.visible {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.box-shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.207);
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity .6s ease-in;
+}
+.fade-in.appear {
+    opacity: 1;
+}

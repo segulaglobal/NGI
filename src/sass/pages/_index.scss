@@ -1,0 +1,371 @@
+// Table of Content
+// 1. Coming soon page
+// 2. Section-hero
+// 3. About us section
+// 4. Section Services
+// 5. Section Banner
+// 6. Section Proposition
+// 7. Section Testimonials
+// 8. Section packages.
+
+
+
+
+
+
+
+
+// == Section-hero ==
+.section-hero {
+    width: 100%;
+    height: 100vh;
+    @include ease(.4s);
+    position: relative;
+    background-image: url(/assets/index-bg.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 10rem;
+    
+
+    .hero-container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+
+        h1 {
+            color: var(--clr-white);
+            font-size: 6rem;
+            line-height: 1.5;
+        }
+    }
+
+}
+// End of Section Hero
+
+
+
+
+// ====================== Hero About ========================
+.hero-about {
+    padding: 10rem 0 15rem;
+
+    .col-2 {
+        gap: 10rem;
+    }
+
+    h1 {
+        line-height: 1.5;
+        font-size: 3rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+
+}
+// End of About Us
+
+
+
+
+// ====================== Services ========================
+.section-services {
+    padding: 10rem 0;
+    border-block: 1px solid #d7d7d7;
+
+    .service {
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+        transition: .4s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:hover > .btn-thin > i {
+            transform: translateX(10px);
+        }
+
+        img {
+            padding-right: 5rem;
+            padding-left: 5rem;
+        }
+
+        p {
+            color: var(--clr-green);
+        }
+
+        h2 {
+            line-height: 1.5;
+            margin-top: 1rem;
+            color: var(--clr-blue);
+        }
+    }
+}
+// End of Services
+
+
+
+// ====================== Section banner ========================
+.section-banner {
+    padding: 10rem 0;
+    background-image: url(/assets/banner-bg.png);
+    background-size: 100%;
+    color: var(--clr-white);
+    background-position: center;
+    transition: .4s ease-in-out;
+
+    &:hover {
+        background-size: 120%;
+    }
+
+    .banner {
+        text-align: center;
+
+        h1 {
+            font-size: 12rem;
+            line-height: 1.5;
+            transition: .2s ease-in-out .2s;
+        }
+        p {
+            transition: .2s ease-in-out;
+        }
+
+        &:hover > h1 {
+            color: var(--clr-yellow);
+        }
+        &:hover > p {
+            color: var(--clr-yellow);
+            transform: translateY(-10px);
+        }
+    }
+}
+// End of section banner
+
+
+
+
+// ================= SECTION Projects ===================
+.hero-projects {
+    padding: 15rem 0;
+
+    .project {
+        text-align: center;
+        transition: .4s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:hover > .btn-thin > i {
+            transform: translateX(10px);
+        }
+    }
+}
+// end of Projects
+
+
+
+
+// ================= SECTION Partner ===================
+.section-partners {
+    padding: 10rem 0;
+    text-align: center;
+    border-block: 1px solid #dfdfdf;
+
+    img {
+        width: 70%;
+        transition: .2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+}
+// End of section partner
+
+
+
+
+
+// ================= SECTION Donate ===================
+.section-donate {
+    padding: 10rem 0;
+    background-image: url(/assets/banner-bg.png);
+    background-size: 100%;
+    color: var(--clr-white);
+    background-position: center;
+    transition: .4s ease-in-out;
+
+    &:hover {
+        background-size: 120%;
+    }
+
+    .donate-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-size: 4rem;
+            line-height: 1.5;
+        }
+    }
+}
+// End of section volunteers
+
+
+
+
+
+
+// ================= SECTION Volunteers ===================
+.section-volunteers {
+    padding: 10rem 0;
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        margin: 2rem 0;
+    }
+}
+// End of Section Volunteers
+
+
+
+
+// ================= SECTION Blog ===================
+.section-blog {
+    padding: 10rem 0;
+}
+// End of section blog
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ///////////////////////////////////////////////
+  //             MEDIA QUERIES
+  /////////////////////////////////////////////////
+
+@media screen and (min-width: 769px) {
+
+    .section-hero {
+
+        .hero-container {
+            text-align: left;
+        }
+
+        .btn-primary {
+            margin-right: 2rem;
+        }
+    }
+
+    // Section-about
+    .section-about {
+        
+        .about-container {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+        }
+        .about-gallery {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 2rem;
+        }
+    }
+
+    // Section-testimonial
+    .section-testimonials {
+
+        .testimonial {
+            max-width: 800px;
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .section-hero {
+
+        .hero-container {
+            
+            .hero-img {
+                width: auto;
+                height: 100%;
+                transform: translateX(-10rem);
+            }
+        }
+    }
+
+   
+
+     /// Section Testimonial
+     .section-testimonials {
+
+        .testimonials-container {
+            padding: 0;
+        }
+
+        .prev, .next {
+            // opacity: 0;
+            top: 110%;
+        }
+        .dot {
+            margin-top: 6rem;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    .section-hero {
+        // display: none;
+
+        .hero-container {
+
+            .hero-name {
+                font-size: 10rem;
+            }
+        }
+    }
+    // end of section hero
+
+
+
+    // section testimonial
+    .section-testimonials {
+
+        .testimonial {
+
+            &__text {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    
+ 
+}
+
+@media screen and (max-width: 325px) {
+
+   
+}

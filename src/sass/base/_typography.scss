@@ -1,0 +1,146 @@
+// Table of Content
+// 1. heading primary
+// 2. heading Secondary
+// 3. thin text
+// 4. white text
+
+
+// heading-primary
+.heading-primary {
+    font-family: "satoshi", sans-serif;
+    font-weight: medium;
+    font-size: 4rem;
+    position: relative;
+    text-transform: capitalize;
+    color: var(--clr-primary);    
+    text-align: center;
+}
+
+
+// heading Secondary
+.heading-secondary {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--clr-gray);
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--clr-gray);
+    margin-bottom: 5rem;
+
+    &:hover {
+        color: var(--clr-primary);
+        border-bottom: 1px solid var(--clr-primary);
+    }
+}
+
+// heading tertiary
+.heading-tertiary {
+    color: var(--clr-gray);
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+// heading-big
+.hero-heading {
+    color: var(--clr-blue);
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+// thin & light text
+.thin-text {
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+// white text
+.white-text {
+    color: #fff;
+
+    &::before, &::after {
+        background-color: var(--clr-gold-light);
+    }
+}
+
+
+.primary-text {
+    // color: var(--clr-primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    transition: .4s;
+
+    &:hover {
+        color: var(--clr-white);
+    }
+
+    &:hover::after {
+        top: 0;
+        height: 100%;
+    }
+
+    &::after {
+        content: "";
+        width: calc(100% + 1rem);
+        height: 10%;
+        background-color: var(--clr-primary);
+        position: absolute;
+        top: 90%;
+        left: -0.5rem;
+        z-index: -1;
+        @include ease(.3s);
+        border-radius: .2rem;
+    }
+}
+
+
+// dark text
+.dark-text {
+    color: var(--clr-black);
+}
+
+
+// Blue text
+.blue-text {
+    color: var(--clr-blue);
+}
+
+// Green text
+.green-text {
+    color: var(--clr-green);
+}
+
+// yellow text
+.yellow-text {
+    color: var(--clr-yellow);
+}
+
+// Red Text
+.red-text {
+    color: var(--clr-red);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 766px) {
+
+  .heading-secondary {
+    //   font-size: 25px;
+      font-weight: bolder;
+  }
+}

@@ -1,0 +1,63 @@
+.section-blog-hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/donate-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .hero-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+        padding-top: 10rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 6rem;
+        line-height: 1.5;
+    }
+}
+
+
+
+// main donate button
+.donate-btn {
+    padding: 10rem 0;
+    text-align: center;
+
+    p {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+
+.donate-banner {
+    width: 100%;
+    padding: 10rem 0;
+    background-image: url(/assets/donate-banner-bg.png);
+    background-size: cover;
+    // background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+
+
+    .banner-container {
+        text-align: center;
+        max-width: 1000px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 4rem;
+            line-height: 1.5;
+            margin-bottom: 3rem;
+        }
+    }
+}
