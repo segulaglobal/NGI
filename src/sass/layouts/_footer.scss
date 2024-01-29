@@ -91,6 +91,8 @@
             color: var(--clr-white);
             display: inline-block;
             padding: 1rem 2rem;
+            font-size: 1.4rem;
+            font-weight: 400;
 
             &:hover,
             &:focus {
@@ -124,6 +126,8 @@
             color: var(--clr-white);
             display: inline-block;
             padding: 0 1rem;
+            font-weight: 400;
+            font-size: 1.4rem;
 
             &:hover,
             &:focus {
@@ -144,7 +148,7 @@ footer {
     padding: 5px 0;
 
     p {
-        font-size: 1.2rem;
+        font-size: 1rem;
 
         a {
             color: green;
@@ -198,6 +202,13 @@ footer {
         .col-3 {
             justify-items: start;
             gap: 5rem;
+        }
+
+        .footer-list {
+
+            .footer-link {
+                font-size: 1.2rem;
+            }
         }
     }
 }

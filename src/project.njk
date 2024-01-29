@@ -38,7 +38,7 @@ layout: 'base.njk'
                 <div>
                     <h1>HELPING YOUNG PEOPLE TAKE ACTION ON THE CLIMATE CRISIS</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                    <a href="#" class="btn btn-yellow">Find out more</a>
+                    <a href="/blog/2024-01-12-project-3/" class="btn btn-yellow">Find out more</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ layout: 'base.njk'
                 <div>
                     <h1>HELPING YOUNG PEOPLE TAKE ACTION ON THE CLIMATE CRISIS</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                    <a href="#" class="btn btn-yellow">Find out more</a>
+                    <a href="/blog/2024-01-12-project-3/" class="btn btn-yellow">Find out more</a>
                 </div>
                 <div>
                     <img src="/assets/what-2.png" alt="first project">
@@ -96,24 +96,9 @@ layout: 'base.njk'
     <div class="container wrapper">
         <h2 class="heading-primary">Projects</h2>
         <div class="col-3">
-            <div class="project">
-                <img src="/assets/project-1.png" alt="NGI project">
-                <p>lorem Ipsum</p>
-                <h2>Lorem Ipsum Sit</h2>
-                <a href="#" class="btn-thin">View more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="project">
-                <img src="/assets/project-1.png" alt="NGI project">
-                <p>lorem Ipsum</p>
-                <h2>Lorem Ipsum Sit</h2>
-                <a href="#" class="btn-thin">View more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="project">
-                <img src="/assets/project-1.png" alt="NGI project">
-                <p>lorem Ipsum</p>
-                <h2>Lorem Ipsum Sit</h2>
-                <a href="#" class="btn-thin">View more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+            {%- for post in collections.project | reverse -%}
+                {% include 'article-snippet.njk' %}
+            {%- endfor-%}
         </div>
     </div>
 </section>
@@ -128,7 +113,7 @@ layout: 'base.njk'
     <div class="container wrapper">
         <div class="donate-container">
             <h1 class="mb-50">MAKE A MONTHLY DONATION AND KNOW THAT 100% WILL GO TO OUR PROJECTS</h1>
-            <a href="#" class="btn btn-yellow">Donate Now</a>
+            <a href="/donate/" class="btn btn-yellow">Donate Now</a>
         </div>
     </div>
 </section>

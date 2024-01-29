@@ -200,7 +200,7 @@
                 display: none;
                 width: 100%;
                 transform: translateY(-5px);
-                padding: 2rem 5rem;
+                padding: 2rem 3rem;
                 border-radius: 1rem;
                 transition: .4s ease-in-out;
                 pointer-events: none;
@@ -255,6 +255,18 @@
 @media screen and (max-width: 768px) {
 
 
+    .nav-bar {
+
+        .dropdown {
+
+            &-menu {
+                
+                h2 {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
 }
 
 

@@ -20,8 +20,8 @@ layout: 'base.njk'
         <div class="hero-container">
             <h1 class="mb-50">A GREAT, BRIGHTER FUTURE FOR EVERY CHILD</h1>
             <div>
-                <a href="#" class="btn btn-yellow mr-20">See our projects</a>
-                <a href="#" class="btn btn-white">Contact Us</a>
+                <a href="/projects/" class="btn btn-yellow">See our projects</a>
+                <a href="/contact/" class="btn btn-white">Contact Us</a>
             </div>
         </div>
     </div>
@@ -41,8 +41,8 @@ layout: 'base.njk'
             <div>
                 <h2 class="heading-secondary">About NGI</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quod qui officia minima. Rem voluptatum quam asperiores id iure adipisci.</p>
-                <br>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa optio beatae accusantium porro facilis sapiente nihil atque veniam molestiae deleniti similique nam, obcaecati nulla maxime ab! Eum minus quam enim vero, amet nihil quod impedit.</p>
+                <a href="/about/" class="btn btn-yellow">About us</a>
             </div>
         </div>
     </div>
@@ -118,24 +118,9 @@ layout: 'base.njk'
     <div class="container wrapper">
         <h2 class="heading-primary">Projects</h2>
         <div class="col-3">
-            <div class="project">
-                <img src="/assets/project-1.png" alt="NGI project">
-                <p>lorem Ipsum</p>
-                <h2>Lorem Ipsum Sit</h2>
-                <a href="#" class="btn-thin">View more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="project">
-                <img src="/assets/project-1.png" alt="NGI project">
-                <p>lorem Ipsum</p>
-                <h2>Lorem Ipsum Sit</h2>
-                <a href="#" class="btn-thin">View more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="project">
-                <img src="/assets/project-1.png" alt="NGI project">
-                <p>lorem Ipsum</p>
-                <h2>Lorem Ipsum Sit</h2>
-                <a href="#" class="btn-thin">View more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+            {%- for post in collections.projectF | reverse -%}
+                {% include 'article-snippet.njk' %}
+            {%- endfor-%}
         </div>
     </div>
 </section>
@@ -216,7 +201,7 @@ layout: 'base.njk'
 <!-- =============== Newsroom =================== -->
 <section class="section-blog">
     <div class="container wrapper">
-        <h2 class="heading-secondary">Blog</h2>
+        <h2 class="heading-primary">Blog</h2>
         <div class="col-3 mb-50">
             {%- for post in collections.featured | reverse -%}
                 {% include 'article-snippet.njk' %}

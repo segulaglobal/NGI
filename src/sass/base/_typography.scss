@@ -7,33 +7,26 @@
 
 // heading-primary
 .heading-primary {
-    font-family: "satoshi", sans-serif;
     font-weight: medium;
     font-size: 4rem;
     position: relative;
-    text-transform: capitalize;
-    color: var(--clr-primary);    
+    text-transform: uppercase;
+    color: var(--clr-blue);    
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 
 // heading Secondary
 .heading-secondary {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: var(--clr-gray);
+    color: var(--clr-black);
     line-height: 1;
-    position: relative;
     z-index: 1;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--clr-gray);
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 
-    &:hover {
-        color: var(--clr-primary);
-        border-bottom: 1px solid var(--clr-primary);
-    }
 }
 
 // heading tertiary

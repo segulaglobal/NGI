@@ -15,7 +15,7 @@
 
 
 
-// == Section-hero ==
+// ===================== Section-hero ===================
 .section-hero {
     width: 100%;
     height: 100vh;
@@ -211,10 +211,10 @@
         margin: 0 auto;
         text-align: center;
 
-        h1 {
-            font-size: 4rem;
-            line-height: 1.5;
-        }
+    }
+    h1 {
+        font-size: 4rem;
+        line-height: 1.5;
     }
 }
 // End of section volunteers
@@ -230,6 +230,7 @@
 
     h1 {
         font-size: 5rem;
+        line-height: 1.2;
     }
 
     p {
@@ -271,7 +272,7 @@
             text-align: left;
         }
 
-        .btn-primary {
+        .btn-yellow {
             margin-right: 2rem;
         }
     }
@@ -307,65 +308,27 @@
 
         .hero-container {
             
-            .hero-img {
-                width: auto;
-                height: 100%;
-                transform: translateX(-10rem);
+            h1 {
+                font-size: 5rem;
+                line-height: 1.2;
             }
         }
     }
 
-   
-
-     /// Section Testimonial
-     .section-testimonials {
-
-        .testimonials-container {
-            padding: 0;
-        }
-
-        .prev, .next {
-            // opacity: 0;
-            top: 110%;
-        }
-        .dot {
-            margin-top: 6rem;
-        }
-    }
-    
 }
 
 @media screen and (max-width: 500px) {
 
-    .section-hero {
-        // display: none;
+    .section-donate {
 
-        .hero-container {
-
-            .hero-name {
-                font-size: 10rem;
-            }
+        h1 {
+            font-size: 3rem;
         }
     }
     // end of section hero
 
 
-
-    // section testimonial
-    .section-testimonials {
-
-        .testimonial {
-
-            &__text {
-                font-size: 1.4rem;
-            }
-        }
-    }
-    
- 
 }
 
 @media screen and (max-width: 325px) {
-
-   
 }

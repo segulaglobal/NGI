@@ -4,7 +4,7 @@
     background-image: url(/assets/donate-bg.png);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
 
     .hero-container {
         width: 100%;
@@ -58,6 +58,27 @@
             font-size: 4rem;
             line-height: 1.5;
             margin-bottom: 3rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+// =================== Media Querries =================
+@media screen and (max-width: 768px) {
+
+    .section-blog-hero {
+
+        h1 {
+            font-size: 4rem;
+            line-height: 1.2;
         }
     }
 }
