@@ -81,7 +81,7 @@
       opacity: 0;
       animation: fade-in linear forwards;
       animation-timeline: view();
-      animation-range: 250px 500px;
+      animation-range: 100px 200px;
     }
 
     @keyframes fade-in {
