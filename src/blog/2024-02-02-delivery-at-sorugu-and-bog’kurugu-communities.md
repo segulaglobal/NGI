@@ -7,6 +7,7 @@ author: "Northern Girl Initiative "
 date: 2018-05-10T11:43:49.426Z
 tags:
   - ProjectF
+  - project
 image: https://scontent.facc5-2.fna.fbcdn.net/v/t1.6435-9/32239762_1074067436082084_3021288722827051008_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=uA7E-aPC6WsAX8rzB6S&_nc_ht=scontent.facc5-2.fna&oh=00_AfCjtY_uY3PLW-DOAnlvWQe0xZV4voW90otiWVHl4n48qw&oe=65E4400C
 imageAlt: Delivery at Sorugu and Bog’kurugu communities
 ---
