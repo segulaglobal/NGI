@@ -5,7 +5,8 @@ description: Our third Practical ICT training under the InnoHub on Wheels
 author: Northern Girl Initiative
 date: 2023-05-23T15:09:17.983Z
 tags:
-  - Projects
+  - Project
+  - ProjectF
 image: https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/349337439_254543700560850_8047463589005083175_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeHAkNi6xwkY8B5_TVSBM0cfOkcGFox0jBg6RwYWjHSMGGBvIxqkohQWnrBkBg9ZivrICHcX7Il9dhp5EkoFYcqj&_nc_ohc=qQWm7Nshf_4AX8t2anU&_nc_zt=23&_nc_ht=scontent.facc5-2.fna&oh=00_AfCTiT6_GPa3ZoHHjL9-iUEUY0QArA5eIVrB7xxSr877WQ&oe=65C2A05D
 imageAlt: Digital Literacy at Moglaa LA Junior High School
 ---
