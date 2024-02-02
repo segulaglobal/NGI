@@ -6,7 +6,6 @@ author: "Northern Girl Initiative "
 date: 2023-03-15T09:31:24.606Z
 tags:
   - project
-  - projectF
 image: /assets/blog/335452134_1338148640313541_5886244151266070823_n.jpg
 imageAlt: Tech Talk session at Tolon Naa Girls Model Junior High
 ---
