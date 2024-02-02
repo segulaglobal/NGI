@@ -4,7 +4,8 @@ description: " The first-ever cohort of NGI's Northern Girl Coding Project"
 author: "Northern Girl Initiative "
 date: 2023-10-24T14:39:32.200Z
 tags:
-  - Projects
+  - Project
+  - ProjectF
 image: https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/415760914_754770116677876_8069189600460680041_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeH4vgv-ID2CVW5Uuv8DuPoIuE-hl0BYM8W4T6GXQFgzxUjI8OwgQJBTSI2snbJkUyJ3to8-N_MKLQCj57pAWTJ6&_nc_ohc=W2XcCxvaQc0AX9KfL4O&_nc_oc=AQmcBni5yLHQix5qcrdWhJboTRMFjq1gKMEgaXVzwnYltg3L-gmNficJePdZuMfcUdw&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfBR7hDDN7lUKwYzzHZf56K-uoGQkElcahvH_e2lNoNrdw&oe=65C1F6FC
 imageAlt: " The first-ever cohort of NGI's Northern Girl Coding Project"
 ---
