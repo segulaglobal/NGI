@@ -6,7 +6,7 @@ description: The NGI ICT training for girls from Zogbele Block C Junior High
 author: "Northern Girl Initiative "
 date: 2022-12-20T11:57:54.476Z
 tags:
-  - Project
+  - project
   - featured
 image: https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/321368065_3383423411978921_2122703532137603246_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=hIp7Bi_kexIAX81RaXA&_nc_oc=AQkBvGDD0rkZ5oebYVXAOC5U_M33GM4xUmpz_jG6P_IpPIlgJ9WUo5PWp6GbW3j2mnI&_nc_zt=23&_nc_ht=scontent.facc5-2.fna&oh=00_AfBDdxvIGZ1xPQJ2t0V6xroOajM1qmqTVcpACpRFrsCxng&oe=65C0D995
 imageAlt: Visit to the Red Clay Art Center
