@@ -137,6 +137,8 @@
 @media screen and (max-width: 1019px) {
 
     .nav-bar {
+        height: 80px;
+
 
         .nav-list {
             position: fixed;
@@ -247,6 +249,10 @@
                 }
             }
         }
+    }
+
+    .logo {
+        width: 150px; 
     }
 
 }

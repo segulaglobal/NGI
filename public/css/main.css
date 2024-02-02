@@ -181,7 +181,7 @@ img {
 
 @media screen and (max-width: 600px) {
   body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 }
 .heading-primary {
@@ -559,6 +559,9 @@ img {
 }
 
 @media screen and (max-width: 1019px) {
+  .nav-bar {
+    height: 80px;
+  }
   .nav-bar .nav-list {
     position: fixed;
     top: 0;
@@ -652,6 +655,9 @@ img {
   }
   .nav-bar .dropdown-menu .col-2 {
     gap: 5rem;
+  }
+  .logo {
+    width: 150px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1058,8 +1064,15 @@ footer p a {
 }
 @media screen and (max-width: 768px) {
   .section-hero .hero-container h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     line-height: 1.2;
+  }
+  .section-hero .hero-container p {
+    font-size: 1.6rem;
+  }
+  .section-hero .hero-container .btn {
+    font-size: 1rem;
+    padding-inline: 3rem;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1201,6 +1214,10 @@ footer p a {
 }
 .form-success p {
   margin-bottom: 1.5rem;
+}
+
+.blog-hero {
+  background-image: url(/assets/newsroom-bg.png);
 }
 
 .section-blog__post {

@@ -32,5 +32,8 @@
     "postcss": "^8.4.6",
     "postcss-cli": "^9.1.0",
     "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
