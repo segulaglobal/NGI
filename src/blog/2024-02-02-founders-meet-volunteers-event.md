@@ -5,7 +5,8 @@ description: This month, we held an impactful "Founders Meet Volunteers" event
 author: "Northern Girl Initiative "
 date: 2023-01-27T11:52:41.361Z
 tags:
-  - Event
+  - post
+  - featured
 image: https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/326888162_576793533975234_6263755369665610994_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=WlKFKwWrr2IAX9U2DQi&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfDolqapV_krMZYG35TDv72cUk8NaHPd25qsJn1RO9eH2Q&oe=65C26B85
 imageAlt: Founders meet Volunteers event
 ---
