@@ -6,7 +6,7 @@ description: Advocacy on "Ending Gender-based Violence " at Clive and Lucy
 author: Northern Girl Initiative
 date: 2022-12-05T11:34:02.394Z
 tags:
-  - Projects
+  - post
 image: https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/318301753_2496974097124737_7754018022386257267_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=IkdgVYIF4s0AX8XUlTr&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfAIOCUPcxliWFqVz8EMaHYr9EioBKO7V6g0dKgOk4qk4w&oe=65C2429D
 imageAlt: Clive and Lucy Richards Junior High School in Gumo Community under
   Kumbungu District in Ghana.
