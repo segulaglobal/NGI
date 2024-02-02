@@ -5,7 +5,7 @@ description: Some pictures from our Orientation session for the Northern Girl
 author: Northern Girl Initiative
 date: 2023-10-11T14:30:08.726Z
 tags:
-  - Projects
+  - ProjectF
 image: https://media.licdn.com/dms/image/D4E22AQFYv8uAtuitoQ/feedshare-shrink_2048_1536/0/1697708666505?e=1709769600&v=beta&t=Q9pUOwF2L2_BIqfiVENIdWlVokj6MOS2S0iqPIKVNgw
 imageAlt: Northern Girl Coding Project Orientation
 ---
