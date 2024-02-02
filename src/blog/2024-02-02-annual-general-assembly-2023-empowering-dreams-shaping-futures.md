@@ -5,7 +5,7 @@ description: 'We gathered for our Annual General Assembly focused on "Empowering
 author: "Northern Girl Initiative "
 date: 2023-11-03T15:03:42.501Z
 tags:
-  - Projects
+  - post
 image: https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/399277554_724213989733489_6419081877272321345_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHihXbsDlO5cMyAJoxX1pS0kV1HupUZMIKRXUe6lRkwgmWQuxOuUQ-RjJkVBSw7SEbXZ8WNP0nHHX12Lo98ZX88&_nc_ohc=DfPQoVkhYx4AX-xHwh4&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfBFJxR2wCkZhzttHKkezPP4rWkd_zmzxPw2g1yBC6S5sg&oe=65C26785
 imageAlt: 'Annual General Assembly focused on "Empowering Dreams, Shaping Futures." '
 ---
