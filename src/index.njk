@@ -21,11 +21,13 @@ layout: 'base.njk'
             <h1>A BETTER, BRIGHTER FUTURE FOR EVERY GIRL</h1>
             <p>Empower Her, Elevate All</p>
             <div>
-                <a href="/projects/" class="btn btn-yellow">See our projects</a>
+                <a href="/project/" class="btn btn-yellow">See our projects</a>
                 <a href="/contact/" class="btn btn-white">Contact Us</a>
             </div>
         </div>
     </div>
+    {# Section hero image #}
+    <img src="/assets/index-bg.png" alt="NGI home image"  class="hero-bg">
 </section>
 {# Section-hero #}
 
@@ -37,7 +39,7 @@ layout: 'base.njk'
     <div class="container wrapper">
         <div class="col-2">
             <div>
-                <img src="/assets/about-img.png" alt="NGI About image">
+                <img src="/assets/about-img.png" alt="NGI About image" class="fade-in">
             </div>
             <div>
                 <h2 class="heading-secondary">Every Girl Deserves Her Dreams</h2>
@@ -47,6 +49,9 @@ layout: 'base.njk'
             </div>
         </div>
     </div>
+
+    {# Skit #}
+    <img src="/assets/skit-1.png" alt="NGI"  class="skit-1">
 </section>
 {# End of Section Hero #}
 
@@ -82,6 +87,9 @@ layout: 'base.njk'
             </div>
         </div>
     </div>
+    {# Skit #}
+    <img src="/assets/skit-2.png" alt="NGI" class="skit-2">
+    <img src="/assets/skit-3.png" alt="NGI" class="skit-3">
 </section>
 {# End of section services #}
 
@@ -118,10 +126,13 @@ layout: 'base.njk'
 <section class="hero-projects">
     <div class="container wrapper">
         <h2 class="heading-primary">Projects</h2>
-        <div class="col-3">
+        <div class="col-3 mb-50">
             {%- for post in collections.projectF | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
+        </div>
+        <div class="text-center">
+            <a href="/project/" class="btn btn-yellow">Our Projects</a>
         </div>
     </div>
 </section>
@@ -192,6 +203,8 @@ layout: 'base.njk'
             </div>
         </div>
     </div>
+    {# Skit #}
+    <img src="/assets/skit-3.png" alt="NGI"  class="skit-3">
 </section>
 {# End of Volunteer section #}
 

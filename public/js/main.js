@@ -93,9 +93,10 @@ const sectionHero = document.querySelector("#hero");
 const toTopButton = document.querySelector('.to-top');
 const navBar = document.querySelector('.nav-bar');
 const navLines = document.querySelectorAll('.lines');
-const navImage = document.getElementById('navImage')
+const heroBg = document.querySelector('.hero-bg');
+const navImage = document.getElementById('navImage');
 const options = {
-    rootMargin: "-200px"
+    rootMargin: "-400px"
 };
 
 const observer = new IntersectionObserver(function(entries, observer) {
@@ -104,6 +105,8 @@ const observer = new IntersectionObserver(function(entries, observer) {
             toTopButton.classList.add("visible");
             navBar.classList.add("nav-scrolled");
             navImage.src = '/assets/ngi-logo-color.png';
+            heroBg.style.opacity = '0';
+            heroBg.style.transform = 'scale(3)';
             navLines.forEach(line => {
                 line.style.backgroundColor = "var(--clr-blue";
             })
@@ -111,6 +114,8 @@ const observer = new IntersectionObserver(function(entries, observer) {
             toTopButton.classList.remove("visible");
             navBar.classList.remove("nav-scrolled");
             navImage.src = '/assets/ngi-logo-white.png';
+            heroBg.style.opacity = '1'
+            heroBg.style.transform = 'scale(1)';
             navLines.forEach(line => {
                 line.style.backgroundColor = "white";
             })

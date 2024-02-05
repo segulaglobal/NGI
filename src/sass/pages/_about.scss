@@ -128,6 +128,53 @@
 
 
 
+
+// ==========================================================
+//                       Membership Page
+// ==========================================================
+.section-member {
+    padding: 20rem 0 15rem;
+
+    .member-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        grid-template-rows: auto;
+        gap: 3rem;
+    }
+
+    h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+    h3 {
+        color: var(--clr-red);
+        font-weight: 400;
+    }
+    .bar {
+        display: inline-block;
+        width: 100px;
+        height: 3px;
+        background-color: var(--clr-gray-light);
+        margin-bottom: 1rem;
+    }
+
+    // image 
+    img {
+        width: 100%;
+        max-width: 200px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
 // ==========================================================
 //                       Media queries
 // ==========================================================
@@ -137,6 +184,19 @@
         h1 {
             font-size: 6rem;
             line-height: 1.5;
+        }
+    }
+
+
+
+    // Single member pages
+    .section-member {
+
+        .member-container {
+            grid-template-columns: 1fr;
+        }
+        .member-name {
+            text-align: center;
         }
     }
 }
