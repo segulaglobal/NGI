@@ -1565,13 +1565,13 @@ footer p a {
   border-bottom: 1px solid var(--clr-blue);
 }
 .section-contact-form .contact-form textarea {
-  background-color: rgba(75, 68, 171, 0.2);
+  background-color: rgba(75, 68, 171, 0.1);
 }
 .section-contact-form .contact-list {
   list-style: none;
 }
 .section-contact-form .contact-list .contact-item {
-  background-color: rgba(75, 68, 171, 0.2);
+  background-color: rgba(75, 68, 171, 0.1);
   padding: 2rem;
   border-radius: 1rem;
   display: flex;
@@ -1684,6 +1684,7 @@ footer p a {
 .donate-btn p {
   max-width: 1000px;
   margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
 .donate-banner {

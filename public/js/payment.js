@@ -1,9 +1,8 @@
 import fetch from 'node-fetch';
 
 async function run() {
-  const mobileNumber = 'YOUR_mobileNumber_PARAMETER';
   const resp = await fetch(
-    `https://devp-reqsendmoney-230622-api.hubtel.com/request-money/${mobileNumber}`,
+    `https://devp-reqsendmoney-230622-api.hubtel.com/request-money/bulk`,
     {
       method: 'POST',
       headers: {
@@ -18,7 +17,8 @@ async function run() {
         callbackUrl: 'http://example.com',
         cancellationUrl: 'http://example.com',
         returnUrl: 'http://example.com',
-        logo: 'http://example.com'
+        logo: '/assets/ngi-logo-color.png',
+        audience: ['string']
       })
     }
   );
