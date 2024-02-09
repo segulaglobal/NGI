@@ -8,7 +8,7 @@ date: 2023-11-20T14:56:18.337Z
 tags:
   - project
   - projectF
-image: https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/402656183_732405085581046_1374691401153626355_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGQ9OtvP7sZN19C6HOMlFwJok67aDL_X5GiTrtoMv9fkSZkXjOxuJ32tReP5Wg41meS9w7MsbUmZw8IlyP1Cd3a&_nc_ohc=RnlvI95AsawAX_uc5sZ&_nc_oc=AQmRhK3HpD-gBQ97kGHAVUEKMd_qg4gj9i4ln1Di840igllbihGa9HXavEIkMwMPloA&_nc_zt=23&_nc_ht=scontent.facc5-2.fna&oh=00_AfC1665rOuzYfYJR8ZUIPd1Ujgk2dRjUIyH-6pDC2rVyqg&oe=65C272F7
+image: /assets/blog/402656183_732405085581046_1374691401153626355_n.jpg
 imageAlt: Empowering Girls for Environmental Awareness Literacy Project
 ---
 
