@@ -11,8 +11,6 @@ image: https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/318301753_2496974097
 imageAlt: Clive and Lucy Richards Junior High School in Gumo Community under
   Kumbungu District in Ghana.
 ---
-
-
 ## Pledge for Change at Clive and Lucy Richards Junior High School
 
 In a resolute stance against Gender-Based Violence (GBV), Northern Girl Initiative (NGI) spearheaded a powerful advocacy campaign at Clive and Lucy Richards Junior High School. Situated in the heart of Gumo Community under the Kumbungu District in Ghana, this initiative aimed to foster awareness, unity, and a collective pledge to eradicate GBV from communities.
@@ -37,10 +35,6 @@ At the heart of this advocacy initiative was a compelling pledge to fight agains
 
 <!--EndFragment-->
 
-
-
-
-
 NGI recognized and rewarded the active participation of individuals committed to the cause. Souvenirs were distributed to those who actively engaged in the advocacy, serving not just as tokens but as symbols of solidarity in the collective fight against gender-based violence.
 
 ## Empowering Communities for a Violence-Free Future
@@ -51,6 +45,4 @@ The event at Clive and Lucy Richards Junior High School signifies NGI's dedicati
 
 NGI extends an invitation to all individuals and communities to join the movement. Break the silence, take a stand against gender-based violence, and be a part of the change.
 
->  **Together, let's create communities where everyone feels safe, respected, and free from the chains of gender-based violence.** 
-
-\#BreakTheSilence #EndGBV #NGIAdvocacy
+>  **Together, let's create communities where everyone feels safe, respected, and free from the chains of gender-based violence.**
