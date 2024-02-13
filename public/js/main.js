@@ -108,7 +108,7 @@ const observer = new IntersectionObserver(function(entries, observer) {
             heroBg.style.opacity = '0';
             heroBg.style.transform = 'scale(3)';
             navLines.forEach(line => {
-                line.style.backgroundColor = "var(--clr-blue";
+                line.style.backgroundColor = "var(--clr-blue)";
             })
         }else{
             toTopButton.classList.remove("visible");

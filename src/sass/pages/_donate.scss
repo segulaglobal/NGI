@@ -72,6 +72,75 @@
 
 
 
+
+
+
+
+// =============================================================
+//                        Payment Page
+// =============================================================
+.section-payment {
+    padding: 20rem 0;
+    text-align: center;
+
+    .payment-container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    p {
+        margin: 2rem 0;
+    }
+
+    // payment form
+    .payment-form {
+        width: 100%;
+        padding: 5rem 3rem;
+        background-color: #011c34;
+        color: #fff;
+        text-align: left;
+        border-radius: 1rem;
+    }
+
+    label {
+        padding-left: 1rem;
+        color: #b3b3b3;
+        font-size: inherit;
+        font-family: inherit;
+    }
+
+    .input-field {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        border: 1px solid #062d50;
+        margin-bottom: 2rem;
+        font-family: inherit;
+        font-size: inherit;
+        background-color: #042643;
+        color: #fff;
+
+        &:focus,
+        &:valid {
+            border: 1px solid #2e5c84;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 // =================== Media Querries =================
 @media screen and (max-width: 768px) {
 

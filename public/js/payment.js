@@ -1,30 +1,23 @@
-import fetch from 'node-fetch';
+const paymentForm = document.getElementById('paymentForm');
+paymentForm.addEventListener("submit", payWithPaystack, false);
 
-async function run() {
-  const resp = await fetch(
-    `https://devp-reqsendmoney-230622-api.hubtel.com/request-money/bulk`,
-    {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: 'Basic ' + Buffer.from('<username>:<password>').toString('base64')
-      },
-      body: JSON.stringify({
-        amount: 1,
-        title: 'string',
-        description: 'string',
-        clientReference: 'string',
-        callbackUrl: 'http://example.com',
-        cancellationUrl: 'http://example.com',
-        returnUrl: 'http://example.com',
-        logo: '/assets/ngi-logo-color.png',
-        audience: ['string']
-      })
+function payWithPaystack(e) {
+  e.preventDefault();
+
+  let handler = PaystackPop.setup({
+    key: 'pk_test_3b73a6cdca00ce396f75964dcdeb1477ebbe946f', // Replace with your public key
+    email: document.getElementById("email-address").value,
+    amount: document.getElementById("amount").value * 100,
+    // ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+    // label: "Optional string that replaces customer email"
+    onClose: function(){
+      alert('Window closed.');
+    },
+    callback: function(response){
+      let message = 'Payment complete! Reference: ' + response.reference;
+      alert(message);
     }
-  );
+  });
 
-  const data = await resp.json();
-  console.log(data);
+  handler.openIframe();
 }
-
-run();

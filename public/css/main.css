@@ -1706,6 +1706,49 @@ footer p a {
   margin-bottom: 3rem;
 }
 
+.section-payment {
+  padding: 20rem 0;
+  text-align: center;
+}
+.section-payment .payment-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.section-payment p {
+  margin: 2rem 0;
+}
+.section-payment .payment-form {
+  width: 100%;
+  padding: 5rem 3rem;
+  background-color: #011c34;
+  color: #fff;
+  text-align: left;
+  border-radius: 1rem;
+}
+.section-payment label {
+  padding-left: 1rem;
+  color: #b3b3b3;
+  font-size: inherit;
+  font-family: inherit;
+}
+.section-payment .input-field {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  border: 1px solid #062d50;
+  margin-bottom: 2rem;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #042643;
+  color: #fff;
+}
+.section-payment .input-field:focus, .section-payment .input-field:valid {
+  border: 1px solid #2e5c84;
+}
+
 @media screen and (max-width: 768px) {
   .section-blog-hero h1 {
     font-size: 4rem;
