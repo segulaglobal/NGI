@@ -39,57 +39,22 @@
     opacity: 1;
   }
 }
-@keyframes slidedown {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  50% {
-    opacity: 0.5;
-    transform: translateY(-5px);
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes scroll-down {
-  0% {
-    transform: translate(0px, -4px);
-  }
-  50% {
-    transform: translate(0px, 4px);
-  }
-  100% {
-    transform: translate(0px, -4px);
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fromRight {
-  0% {
-    transform: translateX(-200px);
-  }
-  75% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
-}
 .fade-in {
   scale: 0.8;
   opacity: 0;
   transform: rotate(10deg) translateX(-50px);
   animation: fade-in linear forwards;
-  animation-timeline: view();
-  animation-range: 100px 300px;
+  animation-timeline: view() !important;
+  animation-range: 100px 300px !important;
+}
+
+img {
+  scale: 0.8;
+  opacity: 0;
+  transform: rotate(10deg) translateX(-50px);
+  animation: fade-in linear forwards;
+  animation-timeline: view() !important;
+  animation-range: 100px 300px !important;
 }
 
 @keyframes fade-in {
@@ -163,7 +128,7 @@ body {
   transition: all 0.4s ease-in-out;
   background: var(--clr-white);
   color: var(--text-clr);
-  font-size: 1.8rem;
+  font-size: clamp(1.7rem, 2vw, 1.25rem);
   font-family: "Poppins", sans-serif;
 }
 
