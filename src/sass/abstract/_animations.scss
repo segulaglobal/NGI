@@ -77,12 +77,12 @@
   // Images fade in on scroll
 
 img, .fade-in {
-    scale: .8; 
-    opacity: 0;
-    transform: rotate(10deg) translateX(-50px);
-    animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: 100px 300px;
+    // scale: .8; 
+    // opacity: 0;
+    // transform: rotate(10deg) translateX(-50px);
+    // animation: fade-in linear forwards;
+    // animation-timeline: view();
+    // animation-range: 100px 300px;
   }
 
   @keyframes fade-in {

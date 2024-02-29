@@ -83,15 +83,6 @@
     transform: translateX(0px);
   }
 }
-img, .fade-in {
-  scale: 0.8;
-  opacity: 0;
-  transform: rotate(10deg) translateX(-50px);
-  animation: fade-in linear forwards;
-  animation-timeline: view();
-  animation-range: 100px 300px;
-}
-
 @keyframes fade-in {
   to {
     scale: 1;
