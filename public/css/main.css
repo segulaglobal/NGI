@@ -83,7 +83,7 @@
     transform: translateX(0px);
   }
 }
-img, .fade-in {
+.fade-in {
   scale: 0.8;
   opacity: 0;
   transform: rotate(10deg) translateX(-50px);

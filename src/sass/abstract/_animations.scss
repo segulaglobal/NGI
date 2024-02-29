@@ -75,7 +75,8 @@
 
 
 //=============  Images fade in on scroll ============
-img, .fade-in {
+// img, 
+.fade-in {
     scale: .8; 
     opacity: 0;
     transform: rotate(10deg) translateX(-50px);
