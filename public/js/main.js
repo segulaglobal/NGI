@@ -105,8 +105,8 @@ const observer = new IntersectionObserver(function(entries, observer) {
             toTopButton.classList.add("visible");
             navBar.classList.add("nav-scrolled");
             navImage.src = '/assets/ngi-logo-color.png';
-            heroBg.style.opacity = '0';
-            heroBg.style.transform = 'scale(3)';
+            // heroBg.style.opacity = '0';
+            // heroBg.style.transform = 'scale(3)';
             navLines.forEach(line => {
                 line.style.backgroundColor = "var(--clr-blue)";
             })
@@ -114,8 +114,8 @@ const observer = new IntersectionObserver(function(entries, observer) {
             toTopButton.classList.remove("visible");
             navBar.classList.remove("nav-scrolled");
             navImage.src = '/assets/ngi-logo-white.png';
-            heroBg.style.opacity = '1'
-            heroBg.style.transform = 'scale(1)';
+            // heroBg.style.opacity = '1'
+            // heroBg.style.transform = 'scale(1)';
             navLines.forEach(line => {
                 line.style.backgroundColor = "white";
             })

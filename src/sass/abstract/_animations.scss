@@ -110,11 +110,13 @@ img {
 @keyframes fade-out {
   to {
     opacity: 0;
+    // transform: scale(1.5);
   }
 }
 
-@keyframes header-image-animation {
+// Background image animation
+@keyframes hero-image-animation {
   to {
-    opacity: 0;
+    transform: scale(1.3);
   }
 }
