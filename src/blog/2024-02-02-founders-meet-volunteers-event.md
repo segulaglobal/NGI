@@ -7,7 +7,7 @@ date: 2023-01-27T11:52:41.361Z
 tags:
   - post
   - featured
-image: https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/326888162_576793533975234_6263755369665610994_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=WlKFKwWrr2IAX9U2DQi&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfDolqapV_krMZYG35TDv72cUk8NaHPd25qsJn1RO9eH2Q&oe=65C26B85
+image: /assets/blog/327733461_704091537850959_4953876115315996007_n.jpg
 imageAlt: Founders meet Volunteers event
 ---
 <!--StartFragment-->
@@ -18,11 +18,11 @@ The Northern Girl Initiative rests on the shoulders of our team of volunteers ea
 
 <!--StartFragment-->
 
-![No photo description available.](https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/327752391_1518697665291371_4039756055937929052_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=v4V2CnMMokgAX9irqtL&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfD9Z1RLifC5g46ZybWQ7XzAeWfQCQYjlg-fQlE9q2Lv1Q&oe=65C1DB15)
+![No photo description available.](/assets/blog/326888162_576793533975234_6263755369665610994_n.jpg)
 
 <!--EndFragment-->
 
-![No photo description available.](https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/327733461_704091537850959_4953876115315996007_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=kexOo4-37XUAX9wvyCm&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfCeB-hRWARUT1khW70uAbGMtqUVAx5pRTckClLHG4FEAQ&oe=65C129F2)
+![No photo description available.](/assets/blog/327752391_1518697665291371_4039756055937929052_n.jpg)
 
 <!--EndFragment-->
 
@@ -30,15 +30,13 @@ That's why our founders make it a priority to gather with volunteers for open di
 
 <!--StartFragment-->
 
-![No photo description available.](https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/327897124_1606981449742768_3523538257993428077_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=0NQc5K3Xs_gAX8GkhWz&_nc_zt=23&_nc_ht=scontent.facc5-2.fna&oh=00_AfB5CtNe2XdKwWkTIkD7fKDMvcxjlIwAqEhjQHMVhvkuLg&oe=65C19A9A)
+![No photo description available.](/assets/blog/327043353_2813256115474397_8687618385154664786_n.jpg)
 
 <!--EndFragment--><!--StartFragment-->
 
-![No photo description available.](https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/327906055_585622199632454_6373573522812878909_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=wtDev2IUkqcAX_i6b7k&_nc_zt=23&_nc_ht=scontent.facc5-2.fna&oh=00_AfD3Mz8LqMrakwejJjGBAtVuHj0_XMC0cc9gqJnvI-PnkA&oe=65C2C1C4)
+![No photo description available.](/assets/blog/326917682_520583973397184_1950221095915101300_n.jpg)
 
 <!--EndFragment-->
-
-
 
 This month, we held an impactful "Founders Meet Volunteers" event kicking off 2023 engagement on a high. 
 
@@ -46,7 +44,7 @@ Every volunteer received personalized certificates of honor from our founders in
 
 <!--StartFragment-->
 
-![No photo description available.](https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/327043353_2813256115474397_8687618385154664786_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=yui3-aZLXSEAX_0Udeo&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfCNopt9S8eUXsgOaO1sALKr5Pw2CEY9rncqzgjObYwZVQ&oe=65C14342)
+![No photo description available.](/assets/blog/326836468_5786363418148904_8456615737415634994_n.jpg)
 
 <!--EndFragment-->
 
@@ -62,14 +60,12 @@ We are endlessly grateful for all who feel called to improve girls' access to ed
 
 <!--StartFragment-->
 
-![No photo description available.](https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/326917682_520583973397184_1950221095915101300_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=usUTPQRCBaAAX88b2OZ&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfBMcj3lE711ShSgqnB39qZQWijKtB6qzEEVFyRgGfY4NA&oe=65C2A2BB)
+![No photo description available.](/assets/blog/327075588_1363254637546126_9050965637574373639_n.jpg)
 
 <!--EndFragment--><!--StartFragment-->
 
-![No photo description available.](https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/326836468_5786363418148904_8456615737415634994_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=fUsgPnHZxAsAX-XPhN6&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfCRdJaoPhAv7cBX7_57huZ3V1xdCItAE1sOR97Gwu-0HA&oe=65C1045B)
+![No photo description available.](/assets/blog/327885076_993403618307376_961116437069850388_n.jpg)
 
 <!--EndFragment--><!--StartFragment-->
-
-![No photo description available.](https://scontent.facc5-1.fna.fbcdn.net/v/t39.30808-6/327075588_1363254637546126_9050965637574373639_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=UmNfAG3A1-gAX9-47oy&_nc_zt=23&_nc_ht=scontent.facc5-1.fna&oh=00_AfCJxH1pf3OVCApe-kvRU9nFzh2fJvY-ntj4xPLUaCxK_w&oe=65C23E5A)
 
 <!--EndFragment-->
