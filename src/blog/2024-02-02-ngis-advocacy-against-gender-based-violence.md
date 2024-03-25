@@ -7,6 +7,7 @@ author: Northern Girl Initiative
 date: 2022-12-05T11:34:02.394Z
 tags:
   - post
+  - community
 image: /assets/blog/318301753_2496974097124737_7754018022386257267_n.jpg
 imageAlt: Clive and Lucy Richards Junior High School in Gumo Community under
   Kumbungu District in Ghana.
