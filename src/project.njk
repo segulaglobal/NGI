@@ -122,7 +122,7 @@ layout: 'base.njk'
 
         {# Community development #}
         <h2 class="heading-secondary" id="community-development">Community development</h2>
-        <div class="col-3 mb-100">
+        <div class="col-3 ">
             {%- for post in collections.community | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
@@ -130,7 +130,7 @@ layout: 'base.njk'
         
         
         {# Enterprise Development #}
-        <h2 class="heading-secondary" id="enterprise-development">Enterprise Development</h2>
+        {# <h2 class="heading-secondary" id="enterprise-development">Enterprise Development</h2> #}
         <div class="col-3 mb-100">
             {%- for post in collections.enterprise | reverse -%}
                 {% include 'article-snippet.njk' %}
