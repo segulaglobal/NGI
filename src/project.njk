@@ -105,7 +105,7 @@ layout: 'base.njk'
         {# Digital Literacy #}
         <h2 class="heading-secondary" id="digital-literacy">Digital Literacy</h2>
         <div class="col-3 mb-100">
-            {%- for post in collections.project | reverse -%}
+            {%- for post in collections.digital | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
         </div>
@@ -114,7 +114,7 @@ layout: 'base.njk'
         {# Education Projects #}
         <h2 class="heading-secondary" id="education-projects">Education Projects</h2>
         <div class="col-3 mb-100">
-            {%- for post in collections.project | reverse -%}
+            {%- for post in collections.education | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
         </div>
@@ -123,7 +123,7 @@ layout: 'base.njk'
         {# Community development #}
         <h2 class="heading-secondary" id="community-development">Community development</h2>
         <div class="col-3 mb-100">
-            {%- for post in collections.project | reverse -%}
+            {%- for post in collections.community | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
         </div>
@@ -132,7 +132,7 @@ layout: 'base.njk'
         {# Enterprise Development #}
         <h2 class="heading-secondary" id="enterprise-development">Enterprise Development</h2>
         <div class="col-3 mb-100">
-            {%- for post in collections.project | reverse -%}
+            {%- for post in collections.enterprise | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
         </div>
