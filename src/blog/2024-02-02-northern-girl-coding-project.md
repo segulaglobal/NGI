@@ -6,6 +6,7 @@ date: 2023-10-24T14:39:32.200Z
 tags:
   - project
   - projectF
+  - digital
 image: /assets/blog/1698823168022.jpeg
 imageAlt: " The first-ever cohort of NGI's Northern Girl Coding Project"
 ---
