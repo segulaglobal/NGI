@@ -6,6 +6,7 @@ author: Northern Girl Initiative
 date: 2023-10-11T14:30:08.726Z
 tags:
   - project
+  - project
 image: /assets/blog/1697708666505.jpeg
 imageAlt: Northern Girl Coding Project Orientation
 ---
