@@ -101,7 +101,37 @@ layout: 'base.njk'
 <section class="hero-projects">
     <div class="container wrapper">
         <h2 class="heading-primary">Projects</h2>
-        <div class="col-3">
+
+        {# Digital Literacy #}
+        <h2 class="heading-secondary" id="digital-literacy">Digital Literacy</h2>
+        <div class="col-3 mb-100">
+            {%- for post in collections.project | reverse -%}
+                {% include 'article-snippet.njk' %}
+            {%- endfor-%}
+        </div>
+
+
+        {# Education Projects #}
+        <h2 class="heading-secondary" id="education-projects">Education Projects</h2>
+        <div class="col-3 mb-100">
+            {%- for post in collections.project | reverse -%}
+                {% include 'article-snippet.njk' %}
+            {%- endfor-%}
+        </div>
+
+
+        {# Community development #}
+        <h2 class="heading-secondary" id="community-development">Community development</h2>
+        <div class="col-3 mb-100">
+            {%- for post in collections.project | reverse -%}
+                {% include 'article-snippet.njk' %}
+            {%- endfor-%}
+        </div>
+        
+        
+        {# Enterprise Development #}
+        <h2 class="heading-secondary" id="enterprise-development">Enterprise Development</h2>
+        <div class="col-3 mb-100">
             {%- for post in collections.project | reverse -%}
                 {% include 'article-snippet.njk' %}
             {%- endfor-%}
