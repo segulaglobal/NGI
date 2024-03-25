@@ -8,6 +8,7 @@ date: 2018-05-10T11:43:49.426Z
 tags:
   - Project
   - ProjectF
+  - community
 image: /assets/blog/32239762_1074067436082084_3021288722827051008_n-1-.jpg
 imageAlt: Delivery at Sorugu and Bog’kurugu communities
 ---
