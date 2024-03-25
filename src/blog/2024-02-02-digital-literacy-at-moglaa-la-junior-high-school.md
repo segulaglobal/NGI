@@ -7,6 +7,7 @@ date: 2023-05-23T15:09:17.983Z
 tags:
   - project
   - projectF
+  - digital
 image: /assets/blog/349337439_254543700560850_8047463589005083175_n.jpg
 imageAlt: Digital Literacy at Moglaa LA Junior High School
 ---
