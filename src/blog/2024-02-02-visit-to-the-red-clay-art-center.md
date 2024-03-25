@@ -8,6 +8,7 @@ date: 2022-12-20T11:57:54.476Z
 tags:
   - project
   - featured
+  - community
 image: /assets/blog/321368065_3383423411978921_2122703532137603246_n.jpg
 imageAlt: Visit to the Red Clay Art Center
 ---
