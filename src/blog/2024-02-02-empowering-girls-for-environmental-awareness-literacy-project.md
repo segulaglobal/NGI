@@ -8,6 +8,7 @@ date: 2023-11-20T14:56:18.337Z
 tags:
   - project
   - projectF
+  - community
 image: /assets/blog/402656183_732405085581046_1374691401153626355_n.jpg
 imageAlt: Empowering Girls for Environmental Awareness Literacy Project
 ---
