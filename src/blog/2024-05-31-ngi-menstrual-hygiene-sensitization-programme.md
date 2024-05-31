@@ -5,9 +5,11 @@ description: To commemorate Menstrual Hygiene Day 2024, We (NGI) organized a
 author: Northern Girl Initiative
 date: 2024-05-31T14:45:46.417Z
 tags:
-  - MenstrualHygiene
-  - Health
-  - Workshop
+  - post
+  - community
+  - project
+  - featured
+  - community
 image: /assets/blog/img_7934.jpg
 imageAlt: Menstrual Hygiene Sensitization Programme by NGI at Chanzegu DA JHS on
   May 29th, 2024
