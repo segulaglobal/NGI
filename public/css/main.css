@@ -988,7 +988,7 @@ footer p a {
   text-align: center;
 }
 .section-banner .banner h1 {
-  font-size: 12rem;
+  font-size: 10rem;
   line-height: 1.5;
   transition: 0.2s ease-in-out 0.2s;
 }
@@ -1167,13 +1167,22 @@ footer p a {
 }
 .section-about_banner .banner {
   text-align: center;
-  padding: 1rem;
+  padding: 4rem 1rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+.section-about_banner .banner:hover {
+  background-color: lightgray;
+  color: var(--clr-red);
+  scale: 0.95;
 }
 .section-about_banner .banner h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 2rem;
 }
+
 .section-about_team {
   padding: 10rem 0;
   text-align: center;

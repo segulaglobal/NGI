@@ -75,15 +75,21 @@
 
     .banner {
         text-align: center;
-        padding: 1rem;
+        padding: 4rem 1rem;
+        border: 1px solid lightgray;
+        border-radius: 1rem;
+        transition: .2s;
+
+        &:hover {
+            background-color: lightgray;
+            color: var(--clr-red);
+            scale: .95;
+        }
 
         h1 {
-            font-size: 5rem;
+            font-size: 3rem;
             line-height: 1.2;
             margin-bottom: 2rem;
-        }
-        p {
-            // font-size: 1.4rem;
         }
     }
 }
