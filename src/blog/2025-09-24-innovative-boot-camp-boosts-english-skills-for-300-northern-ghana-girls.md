@@ -1,5 +1,6 @@
 ---
-title: Innovative Boot Camp Boosts English Skills for 300 Northern Ghana Girls
+title: Read Rise and Thrive English Literacy Bootcamp Boosts English Skills for
+  300 Northern Ghana Girls
 description: Northern Girl Initiative achieves remarkable literacy improvements
   through a month-long bootcamp
 author: Muhsin Ismail
